@@ -78,6 +78,10 @@ defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8);       // database 
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
 
+defined('BASEURL') || defined('BASEURL', 'http://localhost/WST-TX32-Demo/');
+defined('CSS')     || defined('CSS', BASEURL . 'public/css/');
+defined('JS')      || defined('JS',  BASEURL . 'public/js/');
+defined('IMG')     || defined('IMG', BASEURL . 'public/img/');
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.
  */
